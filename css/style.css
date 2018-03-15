@@ -1,3 +1,115 @@
+/* ==================================
+    Base Element Styles
+===================================== */
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background: pink;
+    font-family: 'Arimo', sans-serif;
+    line-height: 1.6;
+    color: #444444;
+}
+
+p {
+    font-size: .95em;
+    margin-bottom: 1.8em;
+}
+
+h2,
+a {
+    color: #cdaa7d;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* ==================================
+    Base Layout Styles
+===================================== */
+/* --------- Navigation Bar --------- */
+
+.site-name {
+    font-size: 1.25em;
+    margin: 0;
+}
+
+.main-nav {
+    margin-top: 5px;
+}
+
+.site-name a, 
+.main-nav a {
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+.main-nav a {
+    font-size: .95em;
+    color: #c08a4a;
+    text-transform: uppercase;
+}
+
+.main-nav a:hover {
+    color: #444444;
+}
+
+
+/* ------- Layout Containers ------- */
+
+.main-header {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+.banner,
+.main-footer {
+    text-align: center;
+}
+
+.banner {
+    color: #fff8e7;
+    background: #53ae85;
+    padding: 3.2em 0;
+    margin-bottom: 60px;
+}
+
+.col {
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.main-footer {
+    background: #fff8e7;
+    padding: 2em 0;
+    margin-top: 20px;
+}
+
+/* --------- Page Elements --------- */
+
+.headline {
+    margin-bottom: 0;
+}
+
+/* ==================================
+    Media Queries
+===================================== */
+
+/* --------- Float Clearfix --------- */
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
 }
