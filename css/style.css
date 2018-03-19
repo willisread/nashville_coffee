@@ -19,7 +19,7 @@ p {
 
 h2,
 a {
-    color: #cdaa7d;
+    color: #bc9055;
 }
 
 h2 {
@@ -82,9 +82,8 @@ figcaption {
 
 .main-nav a {
     font-size: 1em;
-    color: #c08a4a;
+    color: #bc9055;
     text-transform: uppercase;
-    font-style: bold;
 }
 
 .main-nav a:hover {
@@ -106,7 +105,7 @@ figcaption {
 
 .banner {
     color: #fff8e7;
-    background: #53ae85;
+    background: #99cc99;
     padding: 3.2em 0;
     margin-bottom: 60px;
 }
@@ -118,7 +117,7 @@ figcaption {
 
 .main-footer {
     background: #fff8e7;
-    padding: 2em 0;
+    padding: .5em 0;
     margin-top: 20px;
 }
 
@@ -130,6 +129,15 @@ figcaption {
 
 .tagline {
     padding: 0 1em;
+}
+
+.icon-credit {
+    font-size: .75em;
+}
+
+.site-name a {
+    color: #654321;
+    font-size: 1.25em;
 }
 
 /* ==================================
@@ -144,7 +152,7 @@ figcaption {
 
     .main-header {
         position: fixed;
-        background: ;
+        background: #fff;
         box-shadow: 0 1px 4px rgba(0,0,0,.4);
         width: 100%;
         top: 0;
